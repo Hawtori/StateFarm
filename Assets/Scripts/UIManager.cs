@@ -37,8 +37,9 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) && FarmManager._instance.GetCrops() > 0)
         {
+            FarmManager._instance.TakeCrops();
             govFood++;
         }
         quotaTest.text = (govFood).ToString();
