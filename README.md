@@ -13,3 +13,5 @@ Farm colors: \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;White: not planted
  
 Government agent is sent every 7 days to collect crops, better meet their quota!
+
+> Code is in branch `master`
